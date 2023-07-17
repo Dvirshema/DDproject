@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infinya: הפקת דוחות</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> 
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Basic.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/SmartReport.css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../JS/SmartReportAdmin.js"></script>
+    <script src="../../ajaxCalls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+	<header>
+		<a href="../../User/HTML/EditDetailsPage.html" id="EmpName"></a>
+        <a href="https://www.infinya.co.il/">
+            <img src="https://www.infinya.co.il/wp-content/uploads/logo.svg" alt="logo">
+        </a>
+	</header>
+    <!-- Navigation Bar -->
+	<nav>
+        <ul>
+         <li><a href="../HTML/HomePageAdmin.html" onclick="changeColor(this)">דף הבית</a></li>
+         <li><a href="../HTML/ProdRepPageAdmin.html" onclick="changeColor(this)">דיווח ייצור</a></li>
+         <li><a href="../HTML/ProductionPlanAdmin.html" onclick="changeColor(this)">תוכנית ייצור</a></li>
+         <li><a href="#" class="active" onclick="changeColor(this)">דוחות והמלצות</a></li>
+         <li><a href="../HTML/StockPageAdmin.html" onclick="changeColor(this)">מלאי</a></li>
+         <li><a href="../HTML/RecipesAndProductsAdmin.html" onclick="changeColor(this)">מוצרים ומתכונים</a></li>
+         <li><a href="../HTML/EmployeeAdmin.html" onclick="changeColor(this)">עובדים</a></li>
+		 <li id="Disconnected"><button id="DisconnectedBTN" onclick="location.assign('../../LoginPage.html')">התנתק</button></li>
+       </ul>
+	</nav>
+    <h1 id="title"><strong>דוחות ייצור</strong></h1>
+
+	<div id="filterdiagrams-PH">
+        <div id="Left_filter">
+         <p class="filterdiagrams-title"><strong>סנן לפי</strong></p>
+         <p class="filterdiagrams-title">שנה</p>
+         <select name="" id="YearIN"></select>
+         <button onclick="Sendfillter()">סנן</button>   
+        </div>
+        <div id="Right_filter">
+         <button id="SR-btn" onclick="OpenSystemRec()">המלצות מערכת</button>  
+        </div>  
+    </div>
+
+    <div id="diagramsPH">
+        <canvas id="TimeChart"></canvas> 
+        <canvas id="MaterialChart"></canvas>  
+        <canvas id="DayChart"></canvas>
+    </div>
+
+    <div id="System_recommendations">
+        <div id="SR-header">
+            <button onclick="CloseModal()" id="closePopUp">X</button>
+            <h3>המלצות מערכת</h3>
+        </div>
+        <div id="SR_container">
+        </div>
+    </div>      
+
+    <div id="filter-PH">
+        <p class="filter-title"><strong>סנן לפי</strong></p>
+        <p class="filter-title">מספר מכונה</p>
+        <select name="" id="machineIN">
+            <option value="">הכל</option>
+            <option value="2">2</option>
+            <option value="8">8</option>
+        </select>
+        <p class="filter-title">מספר תוכנית ייצור</p>
+        <select name="" id="prodPlanNumIN"></select>
+        <p class="filter-title">תאריך</p>
+        <input type="date" name="dateIN" id="dateIN">
+        <p class="filter-title">שעה</p>
+        <input type="time" name="dateIN" id="timeIN">
+        
+        <button onclick="SendServer()">סנן</button>
+    </div>
+    <div id="Reports-PH"></div>
+    
+</body>
+</html>

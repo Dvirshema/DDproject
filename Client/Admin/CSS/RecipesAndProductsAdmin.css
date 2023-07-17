@@ -1,0 +1,454 @@
+div#right-side {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+table#MatTable {
+    text-align: right;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #9bce9d;
+    border-collapse: collapse;
+}
+
+tr#trHeader {
+    background-color: #307443;
+    color: #ffff;
+}
+
+td {
+    border: solid black 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table#MacTable {
+    text-align: right;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #9bce9d;
+    border-collapse: collapse;
+}
+
+button#add-machine {
+    margin: 5px;
+    height: 30px;
+    background-color: #412de4;
+    color: #ffff;
+    border: solid #fff 1px;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+button#add-material {
+    margin: 5px;
+    height: 30px;
+    background-color: #412de4;
+    color: #ffff;
+    border: solid #fff 1px;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+#popUp-AddMachine {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    left: 28vw;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #307443;
+    font-size: 18px;
+}
+
+#popUp-UpdateMachine {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    left: 28vw;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #307443;
+    font-size: 18px;
+}
+
+
+#popUp-AddMaterial {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    left: 28vw;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #307443;
+    font-size: 18px;
+}
+
+#popUp-UpdateMaterial {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    left: 28vw;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #307443;
+    font-size: 18px;
+}
+
+#popUp-AddProductRecipe {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    left: 28vw;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #307443;
+    font-size: 18px;
+    text-align: right;
+}
+
+#popUp-UpdateProductRecipe {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    left: 28vw;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #307443;
+    font-size: 18px;
+}
+
+button#closeUpdateMachine {
+    font-size: 18px;
+    background-color: #e63434;
+    border: solid white 1px;
+    color: #ffff;
+}
+
+button#closeAddMachine {
+    font-size: 18px;
+    background-color: #e63434;
+    border: solid white 1px;
+    color: #ffff;
+}
+
+button#closeAddMaterial {
+    font-size: 18px;
+    background-color: #e63434;
+    border: solid white 1px;
+    color: #ffff;
+}
+
+button#closeUpdateMaterial {
+    font-size: 18px;
+    background-color: #e63434;
+    border: solid white 1px;
+    color: #ffff;
+}
+
+button#closeProductRecipe {
+    font-size: 18px;
+    background-color: #e63434;
+    border: solid white 1px;
+    color: #ffff;
+}
+
+button#closeUpdateProductRecipe {
+    font-size: 18px;
+    background-color: #e63434;
+    border: solid white 1px;
+    color: #ffff;
+}
+
+div#AddMachine-header {
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+    color: #ffff;
+    height: 40px;
+}
+
+div#UpdateMachine-header {
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+    color: #ffff;
+    height: 40px;
+}
+
+div#AddMaterial-header {
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+    color: #ffff;
+    height: 40px;
+}
+
+div#UpdateMaterial-header {
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+    color: #ffff;
+    height: 40px;
+}
+
+div#AddProductRecipe-header {
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+    color: #ffff;
+    height: 40px;
+}
+
+div#UpdateProductRecipe-header {
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+    color: #ffff;
+    height: 40px;
+}
+
+form#AddMachineForm {
+    margin: 10px;
+    font-size: 20px;
+}
+
+form#UpdateMachineForm {
+    margin: 10px;
+    font-size: 20px;
+}
+
+form#AddMaterialForm {
+    margin: 10px;
+    font-size: 20px;
+}
+
+form#UpdateMaterialForm {
+    margin: 10px;
+    font-size: 20px;
+}
+
+form#AddProductRecipeForm {
+    margin: 10px;
+    font-size: 20px;
+}
+
+form#UpdateProductRecipeForm {
+    margin: 10px;
+    font-size: 20px;
+}
+
+button.update-machine{
+    font-size: 16px;
+    margin-left: 7px;
+    background-color: #412de4;
+    color: #fff;
+    border: solid #fff 1px;
+}
+
+button.update-material{
+    font-size: 16px;
+    margin-left: 7px;
+    background-color: #412de4;
+    color: #fff;
+    border: solid #fff 1px;
+}
+
+button.update-ProductRecipe{
+    font-size: 16px;
+    margin-left: 7px;
+    background-color: #412de4;
+    color: #fff;
+    border: solid #fff 1px;
+}
+
+input#machineNumIN {
+    text-align: right;
+}
+
+input#machineDescIN {
+    text-align: right;
+}
+
+input#AddMachine-Submit {
+    background-color: #24af38;
+    color: #ffff;
+    border: solid #ffff 1px;
+    font-size: 18px;
+}
+
+input#UpdateMachine-Submit {
+    background-color: #24af38;
+    color: #ffff;
+    border: solid #ffff 1px;
+    font-size: 18px;
+}
+
+input#AddMaterial-Submit {
+    background-color: #24af38;
+    color: #ffff;
+    border: solid #ffff 1px;
+    font-size: 18px;
+}
+
+input#UpdateMaterial-Submit {
+    background-color: #24af38;
+    color: #ffff;
+    border: solid #ffff 1px;
+    font-size: 18px;
+}
+
+input#AddProductRecipe-Submit {
+    background-color: #24af38;
+    color: #ffff;
+    border: solid #ffff 1px;
+    font-size: 18px;
+}
+
+input#UpdateProductRecipe-Submit {
+    background-color: #24af38;
+    color: #ffff;
+    border: solid #ffff 1px;
+    font-size: 18px;
+}
+
+
+input#machineDescUP {
+    text-align: right;
+}
+
+input#machineNumUP {
+    text-align: right;
+}
+
+input#materialNumUP {
+    text-align: right;
+}
+
+input#materialNameUP {
+    text-align: right;
+}
+
+input#materialDescUP {
+    text-align: right;
+}
+
+div#container {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    background-color: #9bce9d96;
+    margin-right: 65px;
+    margin-left: 65px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+table#PRTable {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+    border-collapse: collapse;
+    background-color: #9bce9d;
+}
+
+select#filter-machine {
+    margin-right: 8px;
+    text-align: right;
+    height: 25px;
+}
+
+div#left-top {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 94%;
+    background-color: #307443;
+    color: #ffff;
+    align-items: center;
+    height: 35px;
+    border: solid black 1px;
+}
+
+div#left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+p#filter-title {
+    margin-right: 8px;
+}
+
+button#add-ProductRecipe {
+    margin-right: 175px;
+    background-color: #412de4;
+    color: #ffff;
+    border: solid #ffff 1px;
+}
+
+h5 {
+    margin: 15px;
+}
+
+div#rawMat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+button#add-raw-material {
+    background-color: #4733ea;
+    color: #ffff;
+    border: solid #ffff 1px;
+    margin-top: 15px;
+}
+
+button.closeButton {
+    background-color: #e32929;
+    color: #ffff;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+input#productCodeUP {
+    text-align: right;
+}
+
+input#productNameUP {
+    text-align: right;
+}
+
+input#recipeNumUP {
+    text-align: right;
+}
+
+input#amountRequiredUP {
+    text-align: right;
+}
+
+input#productCodeIN {
+    text-align: right;
+}
+
+input#productNameIN {
+    text-align: right;
+}
+
+input#recipeNumIN {
+    text-align: right;
+}
+
+input#amountRequiredIN {
+    text-align: right;
+}

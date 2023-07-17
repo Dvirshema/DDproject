@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinya: התחברות למערכת</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="LoginPage.css">
+    <script src="ajaxCalls.js"></script>
+	<script src="Login.js"></script>
+    <meta name="description" content="Login page for our information system">
+    <meta name="keywords" content="login, information system, username, password">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="loginPage">
+    <header>
+        <img src="https://www.infinya.co.il/wp-content/uploads/Group-712.svg" alt="Logo">
+	</header>   
+    <div id="formContainer">
+     <form id="loginForm" class="form-control"> 
+        <h2>התחבר למערכת לניהול תנועות</h2>
+        
+        <label for="empNum"><b>מספר עובד</b></label>
+        <input type="text" placeholder="הזן מספר עובד" name="empNum" id="empNumIN" required>
+
+        <label for="password"><b>סיסמה</b></label>
+        <div class="password-field">
+            <input type="password" placeholder="הזן סיסמה" name="empPassword" id="empPassIN" required>
+            <span class="eye-icon" onclick="togglePasswordVisibility()"><i class="fa fa-eye" id="password-eye"></i></span>
+        </div>
+       
+        <div class="container">
+            <a href="#" id="forgotPassword" class="forgot-password" onclick="toggleForms()">שכחתי סיסמה</a>
+            <label class="remember-me">
+                <input type="checkbox" name="remember-me" id="rememberMe"> זכור אותי
+            </label>
+
+           
+
+        </div>
+		<button type="submit" id="loginBTN">התחבר</button>  
+</form>
+       
+    <form id="forgotPasswordForm" class="form-control" style="display:none">
+        <a href="#" onclick="toggleForms()"></a>
+        <img src="images\right-arrow.jpeg" class="back-arrow" onclick="goBackToLoginForm()">
+        
+        <h2>איפוס סיסמה</h2>
+    
+        <label for="empNum"><b>מספר עובד</b></label>
+        <input type="text" placeholder="הזן מספר עובד" name="empNumIN" id="empNumIN" required>
+
+        <label for="empFirstName"><b>שם פרטי</b></label>
+        <input type="text" placeholder="הזן שם פרטי" name="empFirstNameIN" id="empFirstNameIN" required>
+
+        <label for="empLastName"><b>שם משפחה</b></label>
+        <input type="text" placeholder="הזן שם משפחה" name="empLastNameIN" id="empLastNameIN" required>
+
+        <label for="empPhoneNum"><b>מספר פאלפון</b></label>
+        <input type="email" placeholder="הזן מספר פאלפון" name="empPhoneNumIN" id="empPhoneNumIN" required>
+    
+        <label for="empEmail"><b>כתובת מייל</b></label>
+        <input type="email" placeholder="הזן כתובת מייל" name="empEmailIN" id="empEmailIN" required>
+    
+        <button type="button" id="resetPasswordBTN" onclick="resetPassword()">אפס סיסמה</button>
+        
+        
+
+        <p id="resetStatus"></p>
+    </form>
+    <div class="overlay" style="display:none;"></div>
+</div>
+</div>
+</body>
+</html>

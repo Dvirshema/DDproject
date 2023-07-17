@@ -1,0 +1,56 @@
+form.w3-animate-zoom {
+    text-align: right;
+    background-color: #B2E5AF;
+}
+
+td {
+    font-size: 20px;
+    padding: 5px;
+}
+
+td#tdBtn {
+    text-align: center;
+    padding-top: 5px;
+    background-color: #307443;
+    border: solid black 2px;
+}
+
+input{
+    text-align: right;
+}
+
+td#tdheader {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #307443;
+    border: solid black 2px;
+}
+
+table {
+    margin-top: 35px;
+    border: solid black 2px;
+}
+
+label {
+	display: inline-flex;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  #myCheckboxStatus {
+	margin-right: 10px;
+  }
+  
+  .active {
+	color: green;
+  }
+  
+  .unactive {
+	color: red;
+  }
+
+  td#tdStatus {
+    display: flex;
+    align-items: center;
+    float: right;
+}

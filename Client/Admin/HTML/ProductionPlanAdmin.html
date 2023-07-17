@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infinya: תוכניות ייצור</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../../Basic.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/ProductionPlan.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../JS/ProductionPlanAdmin.js"></script>
+    <script src="../../ajaxCalls.js"></script>
+</head>
+<body>
+	<header>
+        <a href="../../User/HTML/EditDetailsPage.html" id="EmpName"></a>
+        <a href="https://www.infinya.co.il/">
+            <img src="https://www.infinya.co.il/wp-content/uploads/logo.svg" alt="logo">
+        </a>
+	</header>
+    <!-- Navigation Bar -->
+	<nav>
+        <ul>
+         <li><a href="../HTML/HomePageAdmin.html" onclick="changeColor(this)">דף הבית</a></li>
+         <li><a href="../HTML/ProdRepPageAdmin.html" onclick="changeColor(this)">דיווח ייצור</a></li>
+         <li><a href="#" class="active" onclick="changeColor(this)">תוכנית ייצור</a></li>
+         <li><a href="../HTML/SmartReportAdmin.html" onclick="changeColor(this)">דוחות והמלצות</a></li>
+         <li><a href="../HTML/StockPageAdmin.html" onclick="changeColor(this)">מלאי</a></li>
+         <li><a href="../HTML/RecipesAndProductsAdmin.html"  onclick="changeColor(this)">מוצרים ומתכונים</a></li>
+         <li><a href="../HTML/EmployeeAdmin.html" onclick="changeColor(this)">עובדים</a></li>
+         <li id="Disconnected"><button id="DisconnectedBTN" onclick="location.assign('../../LoginPage.html')">התנתק</button></li>
+       </ul>
+	</nav>
+    <h1 Id="title"><strong>תוכנית ייצור</strong></h1>
+    <div id="container">
+        <form id="ProductionPlan-Form">
+            <table id="ProductionPlanTB"> 
+                <tr>
+                    <td colspan="6" id="TB-rowHeader">הוסף תוכנית ייצור</td>
+                </tr>        
+                <tr class="TB-row">
+                   <td><input id="productNameIN" type="text" maxlength="25" / required></td>
+                   <td class="TB-title">שם נייר</td>  
+                   <td>                
+                    <select id="productCodeIN" name="productCodeIN" onchange="checkProductName()"/ required>
+                    <option value="NULL">בחר קוד נייר</option>
+                    </select>  
+                   </td>
+                   <td class="TB-title">קוד נייר </td>
+                    <td>                
+                     <select id="machineNumIN" name="machineNumIN" onchange="checkProducts()"/ required></select>                    
+                   </td>
+                   <td class="TB-title">מספר מכונה</td>
+                </tr>
+                <tr class="TB-row">
+                   <td><input id="amountDoneIN" type="number" / required></td>
+                   <td class="TB-title">בוצע</td>  
+                   <td><input id="plannedAmountIN" type="number"  / required></td>
+                   <td class="TB-title">כמות מתוכננת</td>
+                   <td><input id="spatialWeightIN" type="number"  / required></td>
+                   <td class="TB-title">משקל מרחבי</td>
+                </tr>
+                <tr class="TB-row">
+                    <td><input id="productionTimeIN" type="number" step="0.01" min="0.00" / required></td>
+                    <td class="TB-title">שעות ייצור</td> 
+                    <td><input id="startTimeIN" type="time"  / required></td>
+                    <td class="TB-title">שעת התחלה</td>       
+                    <td><input id="startDateIN" type="date"  / required></td>
+                    <td class="TB-title">התחלה מתוכננת</td>
+                </tr>               
+                <tr class="TB-row">
+                    <td id="td-submit" colspan="6"><button type="submit" id="AddEmp">הוסף תוכנית ייצור</button></td>                         
+                </tr>                                        
+            </table>
+        </form>
+    </div>
+    <div id="productionPlanPH"></div>
+ 
+</body>
+</html>
+

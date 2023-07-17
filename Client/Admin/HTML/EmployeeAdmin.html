@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infinya: עובדים</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../../Basic.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/EmployeeAdmin.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../JS/EmployeeAdmin.js"></script>
+    <script src="../../ajaxCalls.js"></script>
+</head>
+<body>
+	<header>
+        <a href="../../User/HTML/EditDetailsPage.html" id="EmpName"></a>
+        <a href="https://www.infinya.co.il/">
+            <img src="https://www.infinya.co.il/wp-content/uploads/logo.svg" alt="logo">
+        </a>
+	</header>
+    <!-- Navigation Bar -->
+	<nav>
+        <ul>
+         <li><a href="../HTML/HomePageAdmin.html" onclick="changeColor(this)">דף הבית</a></li>
+         <li><a href="../HTML/ProdRepPageAdmin.html" onclick="changeColor(this)">דיווח ייצור</a></li>
+         <li><a href="../HTML/ProductionPlanAdmin.html" onclick="changeColor(this)">תוכנית ייצור</a></li>
+         <li><a href="../HTML/SmartReportAdmin.html" onclick="changeColor(this)">דוחות והמלצות</a></li>
+         <li><a href="../HTML/StockPageAdmin.html" onclick="changeColor(this)">מלאי</a></li>
+         <li><a href="../HTML/RecipesAndProductsAdmin.html" onclick="changeColor(this)">מוצרים ומתכונים</a></li>
+         <li><a href="#" class="active" onclick="changeColor(this)">עובדים</a></li>
+         <li id="Disconnected"><button id="DisconnectedBTN" onclick="location.assign('../../LoginPage.html')">התנתק</button></li>
+       </ul>
+	</nav>
+    <h1 Id="title"><strong>עובדים</strong></h1>
+    <div id =empHeader>
+    <button id="newEmp" onclick="location.assign('../HTML/AddNewEmployee.html')" >משתמש חדש</button>
+    <div id="filtering">
+     <table>
+        <tr>
+            <td>                
+                <select id="filter-role" onchange="checkValueRole()" name="filter-role"></select>        
+            </td>
+            <td>תפקיד</td>
+            <td>                
+                <select id="filter-Status" onchange="checkValueStatus()" name="filter-Status">
+                  <option value="">הכל</option>
+                  <option value="true">פעיל</option>
+                  <option value="false">לא פעיל</option>      
+                </select>
+            </td>
+            <td>סטאטוס</td>
+            <td><strong>סנן לפי</strong></td>
+        </tr>
+        
+     </table>
+    </div>  
+    </div>    
+    <div id="empDash">
+	<div id="empPH"></div>
+    </div>	
+</body>
+</html>
+

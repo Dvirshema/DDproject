@@ -1,0 +1,61 @@
+form#ProductionPlan-Form {
+    max-width: 80%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    background-color: #93ca96;
+    margin: 20px auto;
+}
+
+td#TB-rowHeader {
+    text-align: center;
+    font-size: 25px;
+    background-color: #307443;
+    color: #fff;
+}
+
+table#ProductionPlanTB {
+    width: 98%;
+    margin-top: 5px;
+    background-color: #5ebd62;
+    border: solid #444444 5px;
+    border-spacing: 5px;
+}
+
+td#td-submit {
+    text-align: center;
+}
+
+button#AddEmp {
+    background-color: #3148c7;
+    color: #Ffff;
+    border: solid #ffff 1px;
+}
+
+table#ProductionPlanTB input {
+    text-align: right;
+    height: 25px;
+}
+
+div#productionPlanPH {
+    display: flex;
+    justify-content: space-around;
+    background-color: #93ca96;
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+table#PPTable td {
+    border: solid black 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table#PPTable {
+    text-align: right;
+    border-collapse: collapse;
+    background-color: #5ebd62;
+    border: solid #444444 5px;
+    font-size: 16px;
+}

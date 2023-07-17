@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Infinya: מלאי</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="../../Basic.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/StockPage.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+        <!--**** Remember to add the database script ***-->
+        <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+        <!--Your web app's Firebase configuration-->     
+        <script src="../../config.js"></script>
+        <script src="../JS/StockPageAdmin.js"></script>
+        <script src="../../ajaxCalls.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="../../User/HTML/EditDetailsPage.html" id="EmpName"></a>
+            <a href="https://www.infinya.co.il/">
+                <img src="https://www.infinya.co.il/wp-content/uploads/logo.svg" alt="logo">
+            </a>
+        </header>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="../HTML/HomePageAdmin.html" onclick="changeColor(this)">דף הבית</a></li>
+                <li><a href="../HTML/ProdRepPageAdmin.html" onclick="changeColor(this)">דיווח ייצור</a></li>
+                <li><a href="../HTML/ProductionPlanAdmin.html" onclick="changeColor(this)">תוכנית ייצור</a></li>
+                <li><a href="../HTML/SmartReportAdmin.html" onclick="changeColor(this)">דוחות והמלצות</a></li>
+                <li><a href="#" class="active" onclick="changeColor(this)">מלאי</a></li>
+                <li><a href="../HTML/RecipesAndProductsAdmin.html" onclick="changeColor(this)">מוצרים ומתכונים</a></li>
+                <li><a href="../HTML/EmployeeAdmin.html" onclick="changeColor(this)">עובדים</a></li>
+                <li id="Disconnected"><button id="DisconnectedBTN" onclick="location.assign('../../LoginPage.html')">התנתק</button></li>
+            </ul>
+        </nav>
+        <h1 Id="title"><strong>מלאי</strong></h1>
+        <div id="popUp">
+            <div id="popUp-header"><button onclick="CloseModal()" id="closePopUp">X</button></div>
+            <div id="updateForm_container">
+                <form id="updateForm">
+                    <h4>מספר חומר גלם</h1>
+                    <input type="text" name="matNum" id="matNum">
+                    <br>
+                    <h4>כמות (בטון)</h1>
+                    <input type="number" name="matAmount" id="matAmount"
+                        required>
+                    <br>
+                    <input type="submit" id="updateSubmit" value="עדכן מלאי">
+                </form>
+            </div>
+        </div>        
+        <div id="MatPH"></div>  
+        <div id="InvDiv">  
+         <div id="InvPH"></div>   
+         <div id="Form_container">
+            <form id="invForm">
+                <table>
+                    <tr>
+                        <td colspan="2" id="TBtitle">אספקת מלאי עתידית</td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" id="date-field" name="date"
+                                required></td>
+                        <td><h4>תאריך</h4></td>
+                    </tr>
+                    <tr>
+                        <td><select id="raw-material-field" name="raw_material"
+                                required>
+                                <option value="">בחר חומר גלם</option>
+                                <option value="1">עיתון</option>
+                                <option value="2">מקרגלים</option>
+                                <option value="3">OCC</option>
+                            </select></td>
+                        <td><h4>חומר גלם</h4></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="amount-field" name="amount"
+                                required></td>
+                        <td><h4>כמות</h4></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="TBbtn"><button type="submit"
+                                id="AddEmp">דווח</button></td>
+                    </tr>
+                </table>
+            </form>
+         </div>       
+        </div> 
+    </body>
+</html>

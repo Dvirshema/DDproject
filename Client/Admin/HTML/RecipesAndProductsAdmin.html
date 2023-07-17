@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infinya: מתכונים ומוצרים</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../../Basic.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/RecipesAndProductsAdmin.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../JS/RecipesAndProductsAdmin.js"></script>
+    <script src="../../ajaxCalls.js"></script>
+</head>
+<body>
+	<header>
+        <a href="../../User/HTML/EditDetailsPage.html" id="EmpName"></a>
+        <a href="https://www.infinya.co.il/">
+            <img src="https://www.infinya.co.il/wp-content/uploads/logo.svg" alt="logo">
+        </a>
+	</header>
+    <!-- Navigation Bar -->
+	<nav>
+        <ul>
+         <li><a href="../HTML/HomePageAdmin.html" onclick="changeColor(this)">דף הבית</a></li>
+         <li><a href="../HTML/ProdRepPageAdmin.html" onclick="changeColor(this)">דיווח ייצור</a></li>
+         <li><a href="../HTML/ProductionPlanAdmin.html" onclick="changeColor(this)">תוכנית ייצור</a></li>
+         <li><a href="../HTML/SmartReportAdmin.html" onclick="changeColor(this)">דוחות והמלצות</a></li>
+         <li><a href="../HTML/StockPageAdmin.html" onclick="changeColor(this)">מלאי</a></li>
+         <li><a href="#" class="active" onclick="changeColor(this)">מוצרים ומתכונים</a></li>
+         <li><a href="../HTML/EmployeeAdmin.html" onclick="changeColor(this)">עובדים</a></li>
+         <li id="Disconnected"><button id="DisconnectedBTN" onclick="location.assign('../../LoginPage.html')">התנתק</button></li>
+       </ul>
+	</nav>
+    <h1 Id="title"><strong>מתכונים ומוצרים</strong></h1>
+    <div id="popUp-AddMachine">
+        <div id="AddMachine-header">
+            <button onclick="CloseModal()" id="closeAddMachine">X</button>
+            <h5>הוסף מכונת ייצור חדשה</h5>
+        </div>
+        <div id="AddMachineForm_container">
+            <form id="AddMachineForm">
+                <h5>מספר מכונת ייצור</h5>            
+                <input type="number" name="machineNumIN" id="machineNumIN"required>            
+                <h5>תיאור פעילות מכונה</h5>
+                <input type="text" name="machineDescIN" id="machineDescIN">   
+                </br>
+                <input type="submit" id="AddMachine-Submit" value="הוסף">
+            </form>
+        </div>
+    </div> 
+    <div id="popUp-UpdateMachine">
+        <div id="UpdateMachine-header">
+            <button onclick="CloseModal()" id="closeUpdateMachine">X</button>
+            <h5>עדכן מכונת ייצור</h5>
+        </div>
+        <div id="UpdateMachineForm_container">
+            <form id="UpdateMachineForm">
+                <h5>מספר מכונת ייצור</h5>            
+                <input type="number" name="machineNumUP" id="machineNumUP">            
+                <h5>תיאור פעילות מכונה</h5>
+                <input type="text" name="machineDescUP" id="machineDescUP" required>   
+                </br>
+                <input type="submit" id="AddMachine-Submit" value="עדכן">
+            </form>
+        </div>
+    </div> 
+    <div id="popUp-AddMaterial">
+        <div id="AddMaterial-header">
+            <button onclick="CloseModal()" id="closeAddMaterial">X</button>
+            <h5>הוסף חומר גלם</h5>
+        </div>
+        <div id="AddMaterialForm_container">
+            <form id="AddMaterialForm">
+                <h5>מספר חומר גלם</h5>            
+                <input type="number" name="materialNumIN" id="materialNumIN" required>            
+                <h5>שם חומר גלם</h5>
+                <input type="text" name="materialNameIN" id="materialNameIN" required>
+                <h5>כמות קיימת במלאי (בטון)</h5>
+                <input type="number" name="materialAmountIN" id="materialAmountIN" required>
+                <h5>תיאור</h5>
+                <input type="text" name="materialDescIN" id="materialDescIN" required>  
+                </br>
+                <input type="submit" id="AddMaterial-Submit" value="הוסף">
+            </form>
+        </div>
+    </div>
+    <div id="popUp-UpdateMaterial">
+        <div id="UpdateMaterial-header">
+            <button onclick="CloseModal()" id="closeUpdateMaterial">X</button>
+            <h5>הוסף חומר גלם</h5>
+        </div>
+        <div id="UpdateMaterialForm_container">
+            <form id="UpdateMaterialForm">
+                <h5>מספר חומר גלם</h5>            
+                <input type="number" name="materialNumUP" id="materialNumUP" >            
+                <h5>שם חומר גלם</h5>
+                <input type="text" name="materialNameUP" id="materialNameUP" required>   
+                <h5>תיאור</h5>
+                <input type="text" name="materialDescUP" id="materialDescUP" required>  
+                </br>
+                <input type="submit" id="UpdateMaterial-Submit" value="עדכן">
+            </form>
+        </div>
+    </div>  
+    <div id="popUp-AddProductRecipe">
+        <div id="AddProductRecipe-header">
+            <button onclick="CloseModal()" id="closeProductRecipe">X</button>
+            <h5>הוסף מתכון ייצור</h5>
+        </div>
+        <div id="AddProductRecipeForm_container">
+            <form id="AddProductRecipeForm">
+                <h5>מספר מכונה</h5>            
+                <select id="PRmachineNumIN" name="PRmachineNumIN"  required>
+                    <option value="2">מוכנה 2</option>
+                    <option value="8">מכונה 8</option>                  
+                </select>           
+                <h5>קוד נייר</h5>
+                <input type="number" name="productCodeIN" id="productCodeIN" required>
+                <h5>שם נייר</h5>
+                <input type="text" name="productNameIN" id="productNameIN" required>
+                <h5>מספר מתכון</h5>
+                <input type="number" name="recipeNumIN" id="recipeNumIN" required> 
+                <button type="button" id="add-raw-material" onclick="addRawMaterial()"> הוסף חומר גלם +</button>
+                <div id="rawMat-container">
+                 <div class="rawMat-from">
+                 <h5>חומר גלם/כמות (בטון)</h5>
+                <input type="number" name="amountRequiredIN" id="amountRequiredIN" required> 
+                 <select id="rawMatNumIN" name="rawMatNumIN"  required>
+                    <option value="1">עיתון</option>
+                    <option value="2">מקרגלים</option>
+                    <option value="3">OCC</option>                   
+                 </select> 
+                 </div>
+                </div>
+                </br>
+                <input type="submit" id="AddProductRecipe-Submit" value="הוסף">
+            </form>
+        </div>
+    </div>
+    <div id="popUp-UpdateProductRecipe">
+        <div id="UpdateProductRecipe-header">
+            <button onclick="CloseModal()" id="closeUpdateProductRecipe">X</button>
+            <h5>עדכן מתכון ייצור</h5>
+        </div>
+        <div id="UpdateProductRecipeForm_container">
+            <form id="UpdateProductRecipeForm">
+                <h5>מספר מכונה</h5>            
+                <select id="PRmachineNumUP" name="PRmachineNumUP"  required>
+                    <option value="2">מוכנה 2</option>
+                    <option value="8">מכונה 8</option>                  
+                </select>           
+                <h5>קוד נייר</h5>
+                <input type="number" name="productCodeUP" id="productCodeUP" required>
+                <h5>שם נייר</h5>
+                <input type="text" name="productNameUP" id="productNameUP" required>
+                <h5>מספר מתכון</h5>
+                <input type="number" name="recipeNumUP" id="recipeNumUP" required> 
+                <button type="button" id="add-raw-material" onclick="addRawMaterialUP()"> הוסף חומר גלם +</button>
+                <div id="rawMat-container-UP">
+                 <div class="rawMat-from-UP">
+                 <h5>חומר גלם/כמות (בטון)</h5>
+                <input type="number" name="amountRequiredUP" id="amountRequiredUP" required> 
+                 <select id="rawMatNumUP" name="rawMatNumUP"  required>
+                    <option value="1">עיתון</option>
+                    <option value="2">מקרגלים</option>
+                    <option value="3">OCC</option>                   
+                 </select> 
+                </div>
+            </div>
+            </br>
+            <input type="submit" id="UpdateProductRecipe-Submit" value="עדכן">
+            </form>
+        </div>
+    </div>  
+    <div id="container">
+        <div id="right-side">
+            <div id="right-top"></div>
+            <div id="right-bottom"></div>
+        </div>
+        <div id="left-side">
+            <div id="left-top">
+                <p id="filter-title">סנן לפי מספר מכונה</p>
+                <select id="filter-machine" onchange="checkValue()" name="filter-machine">
+                   <option value="NULL">הכל</option>
+                    <option value="2">מכונה 2</option>
+                    <option value="8">מכונה 8</option>
+                </select>
+                <button id="add-ProductRecipe" onclick="PopupAddNewProductRecipe()">הוסף מתכון ייצור</button>
+            </div>
+            <div id="left-bottom"></div>
+        </div>
+    </div>
+ 
+</body>
+</html>
+

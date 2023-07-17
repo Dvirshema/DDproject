@@ -1,0 +1,119 @@
+body {
+    background-image: url('images/LoginIMG.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  header{
+    text-align: right; 
+  }
+  
+  header img {
+    max-width: 350px;  
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 100px auto;
+    position: relative;
+    text-align: right;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    left: 10px; /* or adjust as needed */
+  } 
+  
+  .eye-icon:hover {
+    cursor: pointer;
+  }
+  
+  .eye-icon .fa-eye-slash {
+    color: rgb(0, 0, 0)
+  }
+  
+  input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: right;  
+    margin-left: 4px ;
+  }
+  
+  #loginBTN, #resetPasswordBTN {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 13px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 20px;
+  }
+  
+  #loginBTN:hover {
+    background-color: #45a049;  
+  }
+  
+  input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .remember-me {
+    display: inline-block;
+    margin-right: 3px;
+  }
+  
+  /* Style the reset status message */
+  #resetStatus {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  img.back-arrow {
+    width: 30px;
+    height: 30px;
+  }
+  
+  #remember-me, #forgotPassword{
+    margin-left: 4px ;
+  }
+
+
+  #loginPage{
+    overflow: hidden;
+  }

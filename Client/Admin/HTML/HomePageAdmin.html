@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinya: דף הבית</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/HomePage.css">
+    <script src="../JS/HomePageAdmin.js"></script>
+    <script src="../../ajaxCalls.js"></script>
+    
+  </head>
+  <body>
+    <div class="home-div">
+    <header>
+      <div class="logo">
+        <a href="https://www.infinya.co.il/">
+          <img src="https://www.infinya.co.il/wp-content/uploads/Group-712.svg" alt="logo">
+        </a>
+      </div>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+             <li><a href="#" class="active" onclick="changeColor(this)">דף הבית</a></li>
+             <li><a href="../HTML/ProdRepPageAdmin.html" onclick="changeColor(this)">דיווח ייצור</a></li>
+             <li><a href="../HTML/ProductionPlanAdmin.html" onclick="changeColor(this)">תוכנית ייצור</a></li>
+             <li><a href="../HTML/SmartReportAdmin.html" onclick="changeColor(this)">דוחות והמלצות</a></li>
+             <li><a href="../HTML/StockPageAdmin.html" onclick="changeColor(this)">מלאי</a></li>
+             <li><a href="../HTML/RecipesAndProductsAdmin.html" onclick="changeColor(this)">מוצרים ומתכונים</a></li>
+             <li><a href="../HTML/EmployeeAdmin.html" onclick="changeColor(this)">עובדים</a></li>
+             <li id="Disconnected"><button id="DisconnectedBTN" onclick="location.assign('../../LoginPage.html')">התנתק</button></li>
+           </ul>
+        </nav>
+        <div class="user">
+          <a href="../../User/HTML/EditDetailsPage.html" id="EmpName"></a>
+          </div>
+      </header>
+      <h1>ברוכים הבאים למערכת לניהול תנועות<br>באלות פסולת קרטון</h1>
+    </div>
+    <div class="slogan-links-home">
+        <div class="slogan-home">
+          <h4>לוקחים את הייצור שלך לשלב הבא - <br>
+            נתונים בזמן אמת, פתרונות בזמן אמת
+          </h4>
+        </div>
+        <div class="row">
+                <a href="../HTML/SmartReportAdmin.html" class="btn-icon">
+                 <img src="https://www.infinya.co.il/wp-content/uploads/Group-452-1.png" alt="">
+                 <span>דוחות והמלצות</span>
+                </a>
+                <a href="../HTML/ProdRepPageAdmin.html" class="btn-icon">
+                 <img src="https://www.infinya.co.il/wp-content/uploads/Group-454-1.png" alt="">
+                 <span>דיווח ייצור</span>
+                </a>
+                <a href="../HTML/StockPageAdmin.html" class="btn-icon">
+                 <img src="https://www.infinya.co.il/wp-content/uploads/Group-453-1.png" alt="">
+                 <span>מלאי</span>
+                </a>
+        </div>
+    </div>
+    
+    <div class="bulletin-board">
+      <div class="bulletin-header">
+        <h2>
+          לוח מודעות
+        </h2>
+        <img src="../../images/plus-icon.jpeg" alt="Add message" onclick="showMessageForm()">
+      </div>
+     <div class="bulletin-body"></div>     
+    </div> 
+
+    <div id="message-form" class="w3-modal">
+      <div class="w3-modal-content">
+        <header class="w3-container w3-teal">
+          <div id="form-title"><h2>פרסם הודעה חדשה</h2></div>
+          <span onclick="hideMessageForm()" class="w3-button">&times;</span>
+        </header>
+        <div id="NotePH"></div>
+         <div id="form-container" class="w3-container">
+          <form id="form-content">
+            <textarea id="note-content" name="message" rows="5" required></textarea>
+            <br>
+            <button type="submit">פרסם</button>
+          </form>
+        </div>
+      </div>
+    </div>   
+  </body>
+</html>

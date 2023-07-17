@@ -1,0 +1,91 @@
+div#empPH {
+    text-align: center;
+    width: 60%;
+    background-color: #a8dbaa;
+   
+}
+
+div.Emp {
+    border: solid black 2px;
+    width: 33.3333%;
+    float: right;
+    padding: 1px;
+}
+
+h4.empHeader {
+    background-color: #307443;
+    margin: auto;
+    border: solid black 2px;
+}
+
+div#empDash {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+
+.true { background-color: green; }
+.false { background-color: red; }
+
+div.Empfooter {
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: solid black 2px;
+}
+
+div#empHeader {
+    width: 60%;
+    margin: auto;
+    background-color: #307443;
+    border: solid black 2px;
+    margin-bottom: 1px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+button#newEmp {
+    background-color: #412de4;
+    color: #ffff;
+    border: 1px solid #ffff;
+    margin-left: 4px;
+}
+
+div#empHeader {
+    width: 60%;
+    margin: auto;
+    background-color: #307443;
+    border: solid black 2px;
+    margin-bottom: 1px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+select#filter-Status {
+    text-align: right;
+}
+
+td {
+    padding-right: 6px;
+}
+
+h4.status-style {
+    color: green;
+    background-color: #ffff;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid #686868 1px;
+    border-radius: 5px;
+}
+
+select#filter-role {
+    text-align: right;
+}

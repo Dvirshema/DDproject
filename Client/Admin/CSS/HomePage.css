@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI,Arial,sans-serif;
+    direction: rtl;
+    background-color: #FFF3E8; 
+  }
+  .home-div{
+    background-image: url("https://www.infinya.co.il/wp-content/uploads/Group-792-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  
+  }
+  .home-div h1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  nav{
+    margin-left: 250px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .user a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  
+  .user a:hover {
+    text-decoration: underline;
+  }
+  
+  nav li a.active {
+    background-color: #AD9158;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    margin-top: 1px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .slogan-links-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #307443;
+    color: #ffff;
+  }
+  
+  .slogan-home {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .slogan-home h4 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-icon:hover {
+    background-color: #eee;
+  }
+  
+  .btn-icon img {
+    width: 23px;
+    height: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-icon span {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .notice-board {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .bulletin-board {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Style for the bulletin board header */
+  .bulletin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the "Add message" icon */
+  .bulletin-header img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bulletin-header img:hover {
+    transform: rotate(45deg);
+  }
+  
+  /* Style for the message form modal */
+  .w3-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Style for the message form container */
+  .w3-modal-content {
+    background-color: #dedede;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Style for the message form header */
+  .w3-modal-content header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+ 
+  .w3-modal-content .w3-button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #aaa;
+  }
+  
+  /* Style for the message form title */
+  .w3-modal-content h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Style for the message form textarea */
+  .w3-modal-content textarea {
+    width: 100%;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the message form button */
+  .w3-modal-content button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .w3-modal-content button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  div#NotePH {
+    height: 250px;
+    overflow: auto;
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+}
+
+div#Emp-note {
+  width: 94%;
+  margin: 15px;
+  background-color: #7acf81;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.w3-teal, .w3-hover-teal:hover {
+  color: #fff!important;
+  background-color: #307443!important;
+}
+
+div#Emp-note-footer {
+  background-color: #eee;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  color: #585757;
+  padding-right: 10px;
+  padding-left: 10px;
+  align-items: center;
+}
+
+
+div#Emp-note-content {
+  margin: 20px;
+  background-color: #ffff;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+div#Emp-note-header {
+  display: flex;
+  background-color: #307443;
+  color: #ffff;
+  border-radius: 10px;
+  border: solid #838383 1px;
+  padding-right: 10px;
+}
+
+button#update1 {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.update-btn {
+  background-color: #506bff;
+  color: #ffff;
+  border: solid #ffff 1px;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #32b556;
+  color: #ffff;
+  border: solid #ffff 1px;
+  border-radius: 5px;
+}
+
+li#Disconnected {
+  display: flex;
+  align-items: center;
+}
+
+button#DisconnectedBTN {
+  background-color: #dc2e2e;
+  color: #ffff;
+  border: solid #ffff 1px;
+  border-radius: 5px;
+}
+
+button#DisconnectedBTN:hover {
+  background-color: #ffff;
+  color: #dc2e2e;
+  border: solid #dc2e2e 1px;
+  border-radius: 5px;
+}

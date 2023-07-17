@@ -1,0 +1,228 @@
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.AssemblyReference.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfoInputs.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfo.cs
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CoreCompileInputs.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.exe
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.deps.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.runtimeconfig.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.pdb
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.FinalProj.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.build.FinalProj.props
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FinalProj.props
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FinalProj.props
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\scopedcss\bundle\FinalProj.styles.css
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CopyComplete
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\refint\FinalProj.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.pdb
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.genruntimeconfig.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\FinalProj\obj\Debug\net6.0\ref\FinalProj.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.json
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.exe
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.deps.json
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.runtimeconfig.json
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.pdb
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.AssemblyReference.cache
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfoInputs.cache
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfo.cs
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CoreCompileInputs.cache
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.FinalProj.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.build.FinalProj.props
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FinalProj.props
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FinalProj.props
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\scopedcss\bundle\FinalProj.styles.css
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CopyComplete
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\refint\FinalProj.dll
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.pdb
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.genruntimeconfig.cache
+C:\Users\doron\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\ref\FinalProj.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\appsettings.Development.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\appsettings.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\FinalProj.exe
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\FinalProj.deps.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\FinalProj.runtimeconfig.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\FinalProj.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\FinalProj.pdb
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.csproj.AssemblyReference.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfoInputs.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfo.cs
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CoreCompileInputs.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cs
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.FinalProj.Microsoft.AspNetCore.StaticWebAssets.props
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.build.FinalProj.props
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FinalProj.props
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FinalProj.props
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\staticwebassets.pack.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\staticwebassets.build.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\staticwebassets.development.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\scopedcss\bundle\FinalProj.styles.css
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CopyComplete
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\refint\FinalProj.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.pdb
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\FinalProj.genruntimeconfig.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProjDvir\FinalProj\obj\Debug\net6.0\ref\FinalProj.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.exe
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.deps.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.runtimeconfig.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.pdb
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.AssemblyReference.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfoInputs.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfo.cs
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CoreCompileInputs.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.FinalProj.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.build.FinalProj.props
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FinalProj.props
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FinalProj.props
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\scopedcss\bundle\FinalProj.styles.css
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CopyComplete
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\refint\FinalProj.dll
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.pdb
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.genruntimeconfig.cache
+C:\Users\97250\Desktop\FinalProj\FinalProj\obj\Debug\net6.0\ref\FinalProj.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.Development.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.exe
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.deps.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.runtimeconfig.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.pdb
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.AssemblyReference.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfoInputs.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfo.cs
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CoreCompileInputs.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cs
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.FinalProj.Microsoft.AspNetCore.StaticWebAssets.props
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.build.FinalProj.props
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FinalProj.props
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FinalProj.props
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.pack.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.build.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.development.json
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\scopedcss\bundle\FinalProj.styles.css
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CopyComplete
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\refint\FinalProj.dll
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.pdb
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.genruntimeconfig.cache
+C:\MYFOLDER\RUPPIN\privateL\FinalProj17_4\FinalProj\FinalProj\obj\Debug\net6.0\ref\FinalProj.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\appsettings.json
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.exe
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.deps.json
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.runtimeconfig.json
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\FinalProj.pdb
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.AssemblyReference.cache
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfoInputs.cache
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.AssemblyInfo.cs
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CoreCompileInputs.cache
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.FinalProj.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.build.FinalProj.props
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FinalProj.props
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FinalProj.props
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\scopedcss\bundle\FinalProj.styles.css
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.csproj.CopyComplete
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\refint\FinalProj.dll
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.pdb
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\FinalProj.genruntimeconfig.cache
+C:\Users\gilad\OneDrive\שולחן העבודה\DvirProject\FinalProj\FinalProj\obj\Debug\net6.0\ref\FinalProj.dll

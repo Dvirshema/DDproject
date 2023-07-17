@@ -1,0 +1,77 @@
+div#right-side {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+table#MatTable {
+    text-align: right;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #9bce9d;
+    border-collapse: collapse;
+}
+
+tr#trHeader {
+    background-color: #307443;
+    color: #ffff;
+}
+
+td {
+    border: solid black 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table#MacTable {
+    text-align: right;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #9bce9d;
+    border-collapse: collapse;
+}
+
+div#container {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    background-color: #9bce9d96;
+    margin-right: 65px;
+    margin-left: 65px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+table#PRTable {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+    border-collapse: collapse;
+    background-color: #9bce9d;
+}
+
+select#filter-machine {
+    margin-right: 8px;
+    text-align: right;
+    height: 25px;
+}
+
+div#left-top {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 94%;
+    background-color: #307443;
+    color: #ffff;
+    align-items: center;
+    height: 35px;
+    border: solid black 1px;
+}
+
+div#left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}

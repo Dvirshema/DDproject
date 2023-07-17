@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Infinya: הוספת עובד חדש</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> 
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Basic.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/AddNewEmployee.css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../JS/AddNewEmployee.js"></script>
+    <script src="../../ajaxCalls.js"></script>
+</head>
+<body>
+	<header>
+        <a href="../../User/HTML/EditDetailsPage.html" id="EmpName"></a>
+        <a href="https://www.infinya.co.il/">
+            <img src="https://www.infinya.co.il/wp-content/uploads/logo.svg" alt="logo">
+        </a>
+	</header>
+    <!-- Navigation Bar -->
+	<nav>
+        <ul>
+         <li><a href="../HTML/HomePageAdmin.html" onclick="changeColor(this)">דף הבית</a></li>
+         <li><a href="../HTML/ProdRepPageAdmin.html" onclick="changeColor(this)">דיווח ייצור</a></li>
+         <li><a href="../HTML/ProductionPlanAdmin.html" onclick="changeColor(this)">תוכנית ייצור</a></li>
+         <li><a href="../HTML/SmartReportAdmin.html" onclick="changeColor(this)">דוחות והמלצות</a></li>
+         <li><a href="../HTML/StockPageAdmin.html" onclick="changeColor(this)">מלאי</a></li>
+         <li><a href="../HTML/RecipesAndProductsAdmin.html" onclick="changeColor(this)">מוצרים ומתכונים</a></li>
+         <li><a href="../HTML/EmployeeAdmin.html" class="active" onclick="changeColor(this)">עובדים</a></li>
+         <li id="Disconnected"><button id="DisconnectedBTN" onclick="location.assign('../../LoginPage.html')">התנתק</button></li>
+       </ul>
+	</nav>
+    <h1 Id="title"><strong>הוספת עובד חדש</strong></h1>
+    <div id="Form_container">
+        <form class="w3-animate-zoom" >
+            <table>
+                <tr>
+                    <label><td colspan="2" id="tdheader"><i class="fa fa-user-plus" style="font-size:48px;color:rgb(255, 255, 255)"></i></td>
+                </tr>
+                <tr>
+                    <td><input id="empNumIN" type="text" maxlength="6" / required></td>
+                   <td>מספר עובד</td>
+                </tr>
+                <tr>
+                    <td><input id="empFirstNameIN" type="text" maxlength="20" / required></td>
+                   <td>שם פרטי</td>
+                </tr>
+                <tr>
+                    <td><input id="empLastNameIN" type="text" maxlength="20" / required></td>
+                   <td>שם משפחה</td>
+                </tr>
+                <tr>
+                    <td><input id="empPhoneIN" type="text" maxlength="10" / required></td>
+                   <td>טלפון</td>
+                </tr>
+                <tr>
+                    <td><input id="empEmailIN" type="text" maxlength="50" / required></td>
+                   <td>מייל</td>
+                </tr>
+                <tr>
+                    <td><input id="empPasswordIN" type="text" maxlength="8" / required></td>
+                   <td>סיסמא</td>  
+                </tr>               
+                <tr>                                
+                     <td>                
+                      <select id="empRoleNumIN" name="empRoleNumIN" / required>
+                        <option value="NULL"></option>
+                        <option value="1">מנהל לוגיסטיקה</option>
+                        <option value="2">מנהל תפי</option>
+                        <option value="3">מנהל משמרת</option>
+                        <option value="4">מלגזן</option>
+                        <option value="5">מנהל מכונה</option>
+                      </select>
+                    </td>
+                    <td>תפקיד</td>          
+                    <tr>  
+                        <label for="myCheckbox">                                                   
+                            <td colspan="2" id="tdStatus"><span id="myCheckboxStatus">לא פעיל</span>
+                            <input type="checkbox" id="empStatusIN" value="false"></td>             
+                        </label>  
+                        <td>סטאטוס</td>                                              
+                     </tr>                    
+                    <tr>
+                    <td colspan="2" id="tdBtn">
+                        <button type="submit" id="AddEmp">צור משתמש חדש</button> 
+                    </td>
+                </tr>
+              
+            </table>
+        </form>
+    </div>
+</body>
+</html>
+
